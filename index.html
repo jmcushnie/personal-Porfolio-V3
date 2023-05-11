@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/f83dfae58e.js" crossorigin="anonymous"></script>
+    <title>Jess Cushnie Portfolio</title>
+</head>
+<body>
+        <nav id="myTopNav" class="nav-container">
+            <ul class="nav-menu">
+                <li class="logo"><a href="">jess cushnie</a> </li>
+                <li class="nav-item"><a href="#portfolio">portfolio</a> </li>
+                <li class="nav-item"><a href="#about">about</a> </li>
+                <li class="nav-item"><a href="#contact">contact</a> </li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+    </nav>
+
+    <div class="hero-container">
+        <div class="hero-left">
+            <h1>creative designer <br>
+            <em>& developer</em></h1>
+            </div>
+
+            <div class="hero-right">
+            <img  style =" width: 550px; height:500px" src="/img/portfolio pic-11.png" alt="">
+            </div> 
+    </div>
+
+
+    <div id="about" class="about-container">
+        <div class="about">
+        <h3>01/ about me</h3>
+        <p data-aos="fade-up">Hey I’m Jess, a self taught <em>designer and developer</em>
+             based in <em>Christchurch, New Zealand.</em>
+             In the last year i have immersed myself in the world of <em>software development,</em> creating projects and challenging myself everyday learning new skills.    </p>
+    </div>
+    
+</div>
+
+    <h3 class="portfolio-text">02/ portfolio</h3>
+    <div id="portfolio" class="portfolio-container">
+        <div data-aos="fade-right"class="portfolio-one">
+            <img style = " width:400px;height:300px" src="/img/cocktail club.png" alt="">
+            <div class="text-container">
+                <h2> Cocktail Club App</h2>
+            <p>For this project, I created a cocktail search app using React. I learned how to create different pages and navigate between them using React Router DOM.
+                 By connecting to TheCocktailDB API, I fetched the cocktail data using Axios. I organized my code into reusable components and managed their state effectively. 
+                 Also adding features like conditional rendering and event handling to make the app more interactive. I then gave it some character with some custom CSS styling. This project
+                 showcases my skills in React, API integration, routing, state management, and creating engaging user experiences."
+                </p>
+            <div class="button-container">
+                     <button onclick="location.href='https://jess-cocktail-club.netlify.app/'" >View live  <i class="fa-solid fa-right-long"></i></button> <button onclick="location.href='https://github.com/jmcushnie/cocktail-club.git'">Github <i class="fa-solid fa-right-long"></i></button>
+                    </div>
+                  </div>
+        </div>
+        <div data-aos="fade-left"class="portfolio-two">
+            
+            <img style = " width:400px;height:300px" src="/img/weather dashboard.jpg" alt="">
+            <div class="text-container">
+                <h2>Weather Dashboard</h2>
+                <p>In this project i used the OpenWeatherAPI along with HTML, CSS and JavaScript to create a 
+                nice personal dashboard with your time, location and weather.
+            </p>
+             <div class="button-container">
+                 <button onclick="location.href='https://weather-app-jesscushnie.netlify.app/'">View live <i class="fa-solid fa-right-long"></i></button> <button onclick="location.href='https://github.com/jmcushnie/Weather-app'">Github <i class="fa-solid fa-right-long"></i></button>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-right" class="portfolio-three">
+        <img style = " width:400px;height:300px" src="/img/astrology mock.jpg" alt="">
+        <div class="text-container">
+            <h2>Astrology Website</h2>
+            <p>An Astrology website i am currently working on. Built using HTML, CSS and JavaScript and Astrology API. Working on adding new features and adding a blog.
+        </p>
+         <div class="button-container">
+             <button onclick="location.href='https://supernova-astrology.netlify.app'">View live <i class="fa-solid fa-right-long"></i></button> <button onclick="location.href='https://github.com/jmcushnie/super-nova-astrology'">Github <i class="fa-solid fa-right-long"></i></button>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <section class="skills-container">
+        <h3>03/ skills</h3>
+        <p><span style="word-spacing:3rem ;"><em>HTML</em> CSS <span style="border:solid 1px black ; border-radius: 50%; padding: 0.2rem;">JavaScript</span> Node.js</span> Adobe Illustrator <em>Adobe Photoshop</em> Figma <em>Github</em> Bootstrap</p>
+    </section>
+
+    <section id= "contact" class="contact-container">
+        <div data-aos="fade-up"class="email-link">
+       <p>feel free to</p> <a class="email" href="mailto:jesscushnie@gmail.com">get in touch </i></a>
+       <div class="icons"> <a href="https://github.com/jmcushnie" target="_blank"> <i class="fa-brands fa-github fa-2xs"></i></a>
+        <a href="https://www.linkedin.com/in/jesscushnie/" target="_blank"><i class="fa-brands fa-linkedin fa-2xs"></i> </a>
+    </div>
+       
+   </div> 
+   </section>
+
+
+
+<script src="script.js"></script> 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset:180,
+    duration:1200
+  });
+</script>   
+</body>
+</html>
